@@ -54,6 +54,7 @@ const App = new Vue({
         like(userName) {
             alert(`O personagem ${userName} recebeu um like!`)
         },
+        //função para remover itens
         remove(id) {
             const list = this.characters
 
